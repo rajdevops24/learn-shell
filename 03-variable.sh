@@ -15,3 +15,10 @@ echo First argument - $1
 echo Second argument - $2
 echo All argument - $*
 echo Number of argument - $#
+
+LS=$(ls)
+
+echo $LS
+
+ADD=$((17+80))
+echo $ADD
