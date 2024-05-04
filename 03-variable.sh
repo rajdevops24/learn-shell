@@ -16,9 +16,11 @@ echo Second argument - $2
 echo All argument - $*
 echo Number of argument - $#
 
+# COMMAND Substitution
 LS=$(ls)
 
 echo $LS
 
+# Arithmetic Substitution
 ADD=$((17+80))
 echo $ADD
