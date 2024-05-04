@@ -9,3 +9,9 @@ echo x is ${X}
 # $#, $*
 # exit status - 0-255
 # 0 -success; 1-255 failure foro their own commands
+
+echo Script Name - $0
+echo First argument - $1
+echo Second argument - $2
+echo All argument - $*
+echo Number of argument - $#
