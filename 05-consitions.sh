@@ -8,3 +8,4 @@ if [ -z "$1"]; then
   echo "Input pass is missing"
   exit
 fi
+
