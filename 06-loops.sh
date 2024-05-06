@@ -1,7 +1,8 @@
 # while and for
 i=10
-while [ $i -gt 10 ]; do
-  echo hi
+
+while [ $i -gt 1 ]; do
+  echo hello
   i=$(($i-1))
   sleep 2
 done
